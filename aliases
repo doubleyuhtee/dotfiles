@@ -1,0 +1,7 @@
+alias ll="ls -laG"
+alias ~="cd ~"
+alias work="cd ~/Workspace"
+
+alias cap="git commit -a --amend --no-edit && git push -f"
+alias fuckit="git reset --hard --"
+
