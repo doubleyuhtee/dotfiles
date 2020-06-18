@@ -1,0 +1,8 @@
+function prune() {
+	git branch | grep -v master | xargs -I % git branch -D %
+}
+
+fucntion untag() {
+	git tag
+}
+
