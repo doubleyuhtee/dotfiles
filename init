@@ -1,2 +1,3 @@
-# for f in ~/dotfiles/*; do source $f; done
+# for f in $(ls -d ~/dotfiles | grep -v runonce); do echo $f; source $f; done
+
 
