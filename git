@@ -6,3 +6,7 @@ fucntion untag() {
 	git tag
 }
 
+alias cap='git commit -a --amend --no-edit && git push --force origin'
+alias can='git commit -a --amend --no-edit --no-verify'
+
+
