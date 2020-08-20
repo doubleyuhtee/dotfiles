@@ -2,7 +2,7 @@ function prune() {
 	git branch | grep -v master | xargs -I % git branch -D %
 }
 
-fucntion untag() {
+function untag() {
 	git tag
 }
 
