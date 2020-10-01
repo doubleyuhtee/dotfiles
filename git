@@ -10,4 +10,5 @@ alias cap='git commit -a --amend --no-edit && git push --force origin'
 alias can='git commit -a --amend --no-edit --no-verify'
 alias gp='git push origin HEAD'
 alias fire='git checkout -b FIRE-$(date +%Y%m%d%H%M%S ) && git commit -am "FIRE" && git push origin HEAD' 
+alias refresh_master='git reset --hard HEAD && git checkout master && git pull'
 
