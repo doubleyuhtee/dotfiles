@@ -3,6 +3,4 @@ alias ~="cd ~"
 alias work="cd ~/code"
 alias ..="cd .."
 
-alias cap="git commit -a --amend --no-edit && git push -f"
-alias fuckit="git reset --hard --"
 
