@@ -1,6 +1,5 @@
-#! bash
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-git config --global alias.yolo !git commit -am \"$(curl -s whatthecommit.com/index.txt)\"
-git config --global alias.kick !git commit --allow-empty -m \"kick\" && git push
+git config --global alias.yolo "!git commit -am \"$(curl -s whatthecommit.com/index.txt)\""
+git config --global alias.kick "!git commit --allow-empty -m \"kick\" && git push"
 git config --global alias.pre-commit "!git commit -am \"pre-pre-commit\"; pre-commit run --all-files; git commit -am \"pre-commit run --all-files\"; git push"
