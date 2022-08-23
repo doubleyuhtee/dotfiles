@@ -11,5 +11,5 @@ alias can='git commit -a --amend --no-edit --no-verify'
 alias gp='git push origin HEAD'
 alias smallchange='git commit -am "Small change $(date +%Y%m%d%H%M%S )" && git push'
 alias fire='git checkout -b FIRE-$(date +%Y%m%d%H%M%S ) && git commit -am "FIRE" && git push origin HEAD'
-alias main_branch="$(git remote show origin | awk '/HEAD branch/ {print $NF}')"
-alias trunkup="git reset --hard HEAD && git checkout $(git remote show origin | awk '/HEAD branch/ {print $NF}') && git pull"-
+#alias main_branch="$(git remote show origin | awk '/HEAD branch/ {print $NF}')"
+#alias trunkup="git reset --hard HEAD && git checkout $(git remote show origin | awk '/HEAD branch/ {print $NF}') && git pull"-
