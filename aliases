@@ -3,4 +3,12 @@ alias ~="cd ~"
 alias work="cd ~/code"
 alias ..="cd .."
 
+fuction sourceRefresh() {
+	if [ ~/.zshrc ]; then
+		source ~/.zshrc
+	else
+		source ~/.bashrc
+	fi
+}
+
 
